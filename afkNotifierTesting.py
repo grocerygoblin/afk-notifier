@@ -49,8 +49,22 @@ while True:
 
 
 # To Do:
+
 # Add a total activity time indicator thingy
+
+# Needs a way to track activity without mouse movement
+#   - Keyboard
+#   - Applications running? Possibly a security problem
+
+# Possibly handle user input in the console
+#   - "Gimme 10 minutes of 'active'"
+#   - "Make me 'inactive'"
+#   - "Stop the program"
+#   - "Restart the program"
+
 # Look into formatting the cell(s)
+
 # Add some other form of notification if the time has been long enough, like over 45 minutes or something
 #   - Maybe a twitter bot?
+
 # Possibly check for steaminput for controller stuff? (idr if i'm even using steaminput on this pc)
