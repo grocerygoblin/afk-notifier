@@ -1,4 +1,4 @@
-This is a very simple (and bad) script I wrote to update a sheet with my AFK status.
+##This is a very simple (and bad) script I wrote to update a sheet with my AFK status.
 
 I use Moonlight on my PC to share my hardware with my household whenever they want to use it, and we had no way of efficiently checking whether someone is using the computer without directly asking them or invading their privacy/terminating their connection.
 
