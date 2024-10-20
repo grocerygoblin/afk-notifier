@@ -22,6 +22,8 @@ last_move = time.time()
 # Add a loop that counts seconds between status updates
 # Add a total uptime indicator thingy
 # Look into formatting the cell(s)
+# Add some other form of notification if the time has been long enough, like over 45 minutes or something
+#   - Maybe a twitter bot?
 # Possibly check for steaminput for controller stuff? (idr if i'm even using steaminput on this pc)
 
 
