@@ -8,12 +8,9 @@ SCOPE = ['https://www.googleapis.com/auth/spreadsheets',
 credentials = Credentials.from_service_account_file("C:\\afk-notifier-json\\afk-notifier-9e5a1837738d.json", scopes=SCOPE)
 client = gspread.authorize(credentials)
 sheet = client.open('afk-notifier-sheet').sheet1
-
-
 print("AFK Notifier running... probably.")
 timeout = 300
 last_move = time.time()
-
 while True:
     x, y = pyautogui.position()
     time.sleep(40)
@@ -28,4 +25,3 @@ while True:
     else:
         print('Active @ ' + current_time)
         sheet.update(values=[['PC Status', 'Active', 'As of: ' + current_time]], range_name='A1:C1')
-
